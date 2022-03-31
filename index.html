@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>RFID互動網頁</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://blocklypro.webduino.io/node_modules/jquery/dist/jquery.min.js?rev=2f6b11a7e914718e0290410e85366fe9"></script>
+  <script src="https://blocklypro.webduino.io/dist/lib/webduino-all-0.4.20.min.js?rev=4426739c00d85325cb2d3d701fa50666"></script>
+  <script src="https://blocklypro.webduino.io/dist/webduino-blockly.min.js?rev=6e074ceb23d12d1f7cf2ec95cd5a4150"></script>
+  <script src="https://blocklypro.webduino.io/dist/lib/firebase.min.js?rev=c0bfd493efd477d098a4ae9e92b13880"></script>
+  <script src="https://blocklypro.webduino.io/dist/lib/runtime.min.js?rev=683a69503433786202911b4d9f766100"></script>
+  <script src="https://blocklypro.webduino.io/node_modules/webduino-module-rfid/RFID.js"></script>
+  <script src="https://blocklypro.webduino.io/node_modules/webduino-module-rfid/RFID-blockly.js"></script>
+
+</head>
+
+<body>
+    <div class="card">			
+		<button class="btn" id="clear">清除上次資料</button>
+    <button class="btn" id="show">顯示</button>
+		<button class="btn" id="back"><a href="goback.html">返回上頁</a></button>
+    <div class="render" id="render">
+      <h1>您的卡號：<span id="input">未知</span></h1>
+    </div>
+    <img src="./on.png" id="on">
+    <img src="./off.png" class="show" id="off">
+<!-- 			點我重返即可載入歷史資料 -->
+		</div>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>

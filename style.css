@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+  font-family: "Noto Sans TC";
+	padding: auto;
+}
+
+button {
+      background-color: white;
+	    text-align: center;
+      padding: 20px;
+      color:#fff;
+      border: 2px solid #008CBA;
+}
+
+
+.btn {
+  padding:20px 60px;
+  outline: none;
+  background-color: #27ae60;
+  border: none;
+  border-radius:5px;
+  box-shadow: 0 9px #95a5a6;
+}
+
+.btn:hover{
+  background-color: #2ecc71;
+}
+
+.btn:active {
+  background-color: #2ecc71;
+  box-shadow: 0 5px #95a5a6;
+  transform: translateY(4px);
+}
+
+
+.card{
+  border-style: groove;
+  border-radius: 30px;
+  margin: 10px 10px 10px 10px;
+  background-color: lightblue;
+  cursor: grab;
+  display: inline-block;
+  transition: 0.5s;
+  color: #ff6347;
+  padding: 30px 35px 50px 35px
+}
+.card:hover {
+  box-shadow: 5px 4px 10px rgba(51, 51, 102, 0.5);
+  transform: translateY(-10px);
+  color:#D12E28;
+}
+
+a:link{
+  color:#d7e9ff;
+}
+a:visited{
+  color:#5f7795;
+}
+
+a:hover{
+  color:green;
+}
+
+a:active{
+  color:#fd6d41;
+}
+img{
+  display:none;
+  padding: 1.5em;
+  
+}
+.show{
+  display:block;
+}
