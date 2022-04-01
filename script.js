@@ -89,12 +89,12 @@ function Show(){
 
   if (render.style.display === 'none') {
     render.style.display = 'block';
-    showButton.innerText = "隱藏";
+    showButton.innerText = "隱藏卡號";
    
   }
   else {
     render.style.display = 'none';
-    showButton.innerText = "顯示資料";
+    showButton.innerText = "顯示卡號";
 
 
   }

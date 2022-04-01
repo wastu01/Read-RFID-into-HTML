@@ -3,18 +3,16 @@
   font-family: "Noto Sans TC";
 	padding: auto;
 }
-
-button {
-      background-color: white;
-	    text-align: center;
-      padding: 20px;
-      color:#fff;
-      border: 2px solid #008CBA;
+img{
+  max-width:90%;
+  height:auto;
 }
 
-
 .btn {
-  padding:20px 60px;
+  text-align: center;
+  padding: 0.2rem;
+  color:#fff;
+  width:30%;
   outline: none;
   background-color: #27ae60;
   border: none;
@@ -35,14 +33,14 @@ button {
 
 .card{
   border-style: groove;
-  border-radius: 30px;
-  margin: 10px 10px 10px 10px;
-  background-color: lightblue;
+  border-radius: 10px;
+  background-color: rgb(250, 255, 199);
   cursor: grab;
   display: inline-block;
   transition: 0.5s;
   color: #ff6347;
-  padding: 30px 35px 50px 35px
+  margin: auto;
+  padding: 30px;
 }
 .card:hover {
   box-shadow: 5px 4px 10px rgba(51, 51, 102, 0.5);
@@ -66,7 +64,7 @@ a:active{
 }
 img{
   display:none;
-  padding: 1.5em;
+  padding: 0.5em;
   
 }
 .show{
